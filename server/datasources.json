@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "accountDS": {
+    "host": "demo.strongloop.com",
+    "port": 27017,
+    "url": "",
+    "database": "demo",
+    "password": "L00pBack",
+    "name": "accountDS",
+    "user": "demo",
+    "connector": "mongodb"
   }
 }
