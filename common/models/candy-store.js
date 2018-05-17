@@ -8,7 +8,7 @@ module.exports = function(Candystore) {
    var currentHour = currentDate.getHours();
    var OPEN_HOUR = 6;
    var CLOSE_HOUR = 20;
-   console.log('Current hour is %d', currentHour);
+   console.log('Current hour is %d', currentHour);w
    var response;
    if (currentHour >= OPEN_HOUR && currentHour < CLOSE_HOUR) {
      response = 'We are open for business.';
