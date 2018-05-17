@@ -26,4 +26,29 @@ const validQuantity = quantity => Boolean(quantity > 0)
     }
     callback(null, result);
   };
+
+  // Validation method
+  Product.validatesLengthOf('name', {
+    min: 3,
+    message: {
+      min: 'Name should be at least 3 characters',
+    },
+  })
+
+  Product.validatesUniquenessOf('name')
+
+  //ensure price is 0 or higher (no built-in loopback method)
+  const positiveInteger = /^[0-9]*$/
+
+  const validatePositiveInteger = function(err) {
+    if(!positiveInteger.test(this.price)) {
+      err()
+    }
+  }
+
+  Product.validate('price', validatePositiveInteger, {
+    message: 'Price should be a positive integer'
+  })
+
+
 }
