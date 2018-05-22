@@ -55,7 +55,7 @@ module.exports = function (Product) {
 
     // asynchronous validation to check against db value, ensure price higher than min
     process.nextTick(() => {
-      const minimalPriceFromDB = 2
+      const minimalPriceFromDB = 0.5
       if (price < minimalPriceFromDB) {
         err()
       }

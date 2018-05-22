@@ -1,0 +1,27 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "CandyStore": 1,
+    "Account": 1,
+    "Category": 1,
+    "Product": 3
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "CandyStore": {},
+    "Account": {},
+    "Category": {},
+    "Product": {
+      "1": "{\"name\":\"abc\",\"price\":299,\"id\":1}",
+      "2": "{\"name\":\"New Product Yay\",\"price\":10,\"id\":2}"
+    }
+  }
+}

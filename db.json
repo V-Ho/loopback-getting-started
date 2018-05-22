@@ -1,0 +1,33 @@
+{
+  "ids": {
+    "User": 1,
+    "AccessToken": 1,
+    "ACL": 1,
+    "RoleMapping": 1,
+    "Role": 1,
+    "CandyStore": 1,
+    "Account": 1,
+    "Category": 4,
+    "Product": 5
+  },
+  "models": {
+    "User": {},
+    "AccessToken": {},
+    "ACL": {},
+    "RoleMapping": {},
+    "Role": {},
+    "CandyStore": {},
+    "Account": {},
+    "Category": {
+      "1": "{\"name\":\"chips\",\"id\":1}",
+      "2": "{\"name\":\"chocolate\",\"id\":2}",
+      "3": "{\"name\":\"chocolate\",\"id\":3}"
+    },
+    "Product": {
+      "1": "{\"name\":\"Sun Chips\",\"price\":1,\"categoryId\":1,\"id\":1}",
+      "2": "{\"name\":\"Popcorn\",\"price\":1,\"categoryId\":1,\"id\":2}",
+      "3": "{\"name\":\"Bounty Bar\",\"price\":2,\"categoryId\":2,\"id\":3}",
+      "4": "{\"name\":\"Tony Chocoloneyr\",\"price\":3,\"categoryId\":2,\"id\":4}"
+    }
+  }
+}
